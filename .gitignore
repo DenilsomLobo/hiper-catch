@@ -1,0 +1,27 @@
+.test-artifacts/
+
+# Dependências e caches locais
+node_modules/
+__pycache__/
+*.py[cod]
+
+# Configurações locais e credenciais
+.env
+.env.*
+!.env.example
+*service-account*.json
+*serviceAccount*.json
+.aws/
+.codex/
+.agents/
+
+# Arquivos temporários e logs
+*.log
+*.tmp
+*.bak
+~$*
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+Desktop.ini

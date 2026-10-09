@@ -1,0 +1,23 @@
+// PROPOSTA: integre este bloco dentro do match /databases/{database}/documents
+// existente. Não substitua nem publique as regras atuais do Castle Roll.
+match /ranking_hiper_catch/{resultId} {
+  allow read: if true;
+  allow create: if request.auth != null
+    && request.auth.token.firebase.sign_in_provider == 'anonymous'
+    && request.resource.data.keys().hasAll(['nome', 'pontos', 'dataHora', 'uid'])
+    && request.resource.data.keys().hasOnly(['nome', 'pontos', 'dataHora', 'uid'])
+    && request.resource.data.nome is string
+    && request.resource.data.nome.size() >= 1
+    && request.resource.data.nome.size() <= 96
+    && request.resource.data.nome.matches('^[^\\x00-\\x1F\\x7F]+$')
+    && request.resource.data.pontos is int
+    && request.resource.data.pontos >= 0
+    && request.resource.data.pontos <= 2147483647
+    && request.resource.data.dataHora is timestamp
+    && request.resource.data.dataHora == request.time
+    && request.resource.data.uid is string
+    && request.resource.data.uid.size() > 0
+    && request.resource.data.uid.size() <= 128
+    && request.resource.data.uid == request.auth.uid;
+  allow update, delete: if false;
+}
