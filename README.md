@@ -127,4 +127,5 @@ O avatar no cabeçalho também referencia um arquivo externo (`../../images/avat
 ## Autor
 
 Desenvolvido por **Denilsom Lobo de Souza**.
+
 **Para ver mais conteúdos ou jogar link =>** https://portifolio-denilsom-lobo.web.app/games.html
