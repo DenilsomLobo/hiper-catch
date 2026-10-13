@@ -4,8 +4,8 @@ Um jogo de coleta para navegador: ajude o Bob Roll arrastando os resíduos até 
 
 ## Capa
 
-<!-- Substitua CAMINHO_DA_IMAGEM_DE_CAPA pelo caminho relativo da imagem ou por uma URL. -->
-![Capa do Hiper Roll — Hiper Catch](CAMINHO_DA_IMAGEM_DE_CAPA)
+
+![Capa do Hiper Roll — Hiper Catch](https://portifolio-denilsom-lobo.web.app/images/capa/hiper_catch.png)
 
 ## Como é o jogo
 
