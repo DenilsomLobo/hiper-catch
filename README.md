@@ -35,15 +35,15 @@ Ao terminar, o jogo mostra a pontuação e a quantidade de itens coletados. É p
 
 ### 1. Tela inicial
 
-![Tela inicial do jogo](CAMINHO_DA_IMAGEM_1)
+![Tela inicial do jogo](https://portifolio-denilsom-lobo.web.app/images/git_hub_imgs/hiper_catch_01.png)
 
 ### 2. Partida em andamento
 
-![Partida em andamento](CAMINHO_DA_IMAGEM_2)
+![Partida em andamento](https://portifolio-denilsom-lobo.web.app/images/git_hub_imgs/hiper_catch_02.png)
 
 ### 3. Resultado ou ranking
 
-![Resultado ou ranking do jogo](CAMINHO_DA_IMAGEM_3)
+![Resultado ou ranking do jogo](https://portifolio-denilsom-lobo.web.app/images/git_hub_imgs/hiper_catch_03.png)
 
 ## Tecnologias usadas
 
